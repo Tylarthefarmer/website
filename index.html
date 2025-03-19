@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Tylar Farmer | Software Quality Engineer</title>
+        <link type = "text/css" rel ="stylesheet" href = "stylesheet.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+        <script type="text/javascript" src="jqueryscript.js"></script>
+        <meta name="viewport" content="width=1024">
+        <meta name="description" content="Welcome to my website">
+    </head>
+	<style>
+	</style>
+	<body background="index_background.webp">
+		<div class="introText">
+			<h1>Howdy! I'm Tylar</h1>
+			<h3>(tie-lur)</h3>
+			<h2>I handle software quality for medical devices</h2>
+			<h2>Based in Pittsburgh, PA</h2>
+		</div>
+		<div id="socials" class="socials">
+			<div class="lowOpacityItem">
+				<a href="mailto:tylar.s.farmer@gmail.com"><img src="mail.webp" width="80px" height="80px"></a>
+			</div>
+			<div class="lowOpacityItem">
+				<a href="https://www.linkedin.com/in/tylar-farmer-55873784/" target="_blank"><img src="linkedin.webp"  width="80px" height="80px"></a>
+			</div>
+			<div class="lowOpacityItem">
+				<a href="https://github.com/Tylarthefarmer?tab=overview&from=2024-12-01&to=2024-12-31" target="_blank"><img src="github.webp" width="80px" height="80px"></a>
+			</div>
+			<div class="lowOpacityItem">
+				<a href="https://www.youtube.com/channel/UC23F9aG_wErBNu86zzbqkCA?view_as=subscriber" target="_blank"><img src="youtube.webp" width="80px" height="80px"></a>
+			</div>
+		</div>
+		<div id="scrollList" class="scrollList">
+			<div class="lowOpacityItem">
+				<button id="listItem1"><p><b>Vitara Biomedical</b></p></button>
+			</div>
+			<div class="lowOpacityItem">
+				<button id="listItem2"><p><b>Smith+Nephew</b></p></button>
+			</div>
+			<div class="lowOpacityItem">
+			<button id="listItem3"><p><b>University of Pittsburgh</b></p></button>
+			</div>
+			<div class="lowOpacityItem">
+				<button id="listItem4"><p><b>Fujirebio Diagnostics</b></p></button>
+			</div>
+			<div class="lowOpacityItem">
+				<a href="Redacted Resume.pdf" target="_blank"><b>(View Full Résumé)</b></p>
+			</div>
+			<div class="lowOpacityItem">
+				<a href="projects.html"><b>Projects></a></b></p>
+			</div>
+		</div>
+		<div id="scrollBox" class="scrollBox">
+			<div class="years">
+				<p id="years"><b>Software Quality Assurance Engineer <br />October 2022 - Present</p></b>
+			</div>
+			<div class="description">
+				<p id="description">As an SQA engineer at Vitara, I oversee the software quality on the EXTEND system, an artificial womb designed to support premature infants born between weeks 23-25 of gestation. I work with our software development, R&D, human factors, and V&V teams to author SOPs, templates, work instructions, plans, tests, and reports to ensure the device is safe, reliable, and adheres to appropriate regulatory requirements. I also operate our eQMS, configuring the system to meet the company’s needs. <br></br><b><a href="https://www.bbc.com/future/article/20240717-artificial-placenta-a-new-lifeline-for-premature-babies" target=_blank>Artifical placenta: A new lifeline for premature babies?</a></b></p>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<div class="footer">
+		<p><b>Designed by me</b><a href="tylarfarmer.com/personal.html"><img border="0" alt="basket!" src="basket.webp" width="80" height="50"></p></a>
+		</div>
+	</footer>
+</html>
+
+<script>
+    const button1 = document.getElementById('listItem1');
+    button1.addEventListener('click', function() {
+		document.getElementById('description').innerHTML = "<p>As an SQA engineer at Vitara, I oversee the software quality on the EXTEND system, an artificial womb designed to support premature infants born between weeks 23-25 of gestation. I work with our software development, R&D, human factors, and V&V teams to author SOPs, templates, work instructions, plans, tests, and reports to ensure the device is safe, reliable, and adheres to appropriate regulatory requirements. I also operate our eQMS, configuring the system to meet the company’s needs. <br></br><b><a href='https://www.bbc.com/future/article/20240717-artificial-placenta-a-new-lifeline-for-premature-babies' target=_blank>Artifical placenta: A new lifeline for premature babies?</a></b></p>"
+		document.getElementById('years').innerHTML = "<p><b>Software Quality Assurance Engineer <br />October 2022 - Present</p></b>"
+	})
+	
+	 const button2 = document.getElementById('listItem2');
+    button2.addEventListener('click', function() {
+		document.getElementById('description').innerHTML = "<p>At Smith+Nephew, I worked as the lead SQA Engineer from feasibility to post-market for both the RI.HIP MODELER and RI.HIP NAVIGATION projects. RI.HIP MODELER is the world’s first class II medical device to use simulations and predictive elements to perform total hip arthroplasty as an application on the iPad. For the RI.HIP NAVIGATION project, I oversaw the implementation of total hip arthroplasty navigation software on our next-generation robotics surgical system. <br></br><b><a href='https://www.smith-nephew.com/en/news/2020/07/28/20200728--sn-announces-new-ri-hip-navigation-for-total-hip-arthroplasty' target=_blank>Smith+Nephew announces new RI.HIP Navigation for Total Hip Arthroplasty</a><b><br></br><a href='https://www.prnewswire.com/news-releases/smithnephew-announces-first-total-hip-replacement-cases-on-its-cori-surgical-system-using-rihip-modeler-and-rihip-navigation-301563770.html' target=_blank>Smith+Nephew announces first total hip replacement cases on its CORI Surgical System using RI.HIP MODELER and RI.HIP NAVIGATION</a>"
+		document.getElementById('years').innerHTML = "<p><b>Software Quality Assurance Engineer II <br />January 2020 - October 2022</p></b>"
+	})
+	
+	 const button3 = document.getElementById('listItem3');
+    button3.addEventListener('click', function() {
+		document.getElementById('description').innerHTML = "<p>During my time at Pitt, I worked as the Principal Engineer in the Shoemaker Lap, working alongside UPMC to prototype, program, and fabricate the Uterine Tone Monitor. The device is capable of mobile pressure data logging with an intended use of detecting postpartum maternal hemorrhaging. I met with our client at UPMC multiple times to design the device to specification and developed requirements and tests for the device. <br></br><img src='device.webp' width='300px' height='430px'>"
+		document.getElementById('years').innerHTML = "<p><b>Principal Engineer at the Shoemaker Lab and UPMC <br />October 2018 - July 2019</p></b>"
+	})
+	
+	 const button4 = document.getElementById('listItem4');
+    button4.addEventListener('click', function() {
+		document.getElementById('description').innerHTML = "<p>I interned at Fujirebio in the biomarker development and QA departments. During my time, I developed a program to perform detection limit analyses on data from immunoassay machines, which reduced our process cycle time by 1-2 hours. I also drafted SOPs for usage of laboratory equipment, performed internal laboratory audits, and analyzed BCA assays on immunosuppression protein retentate, which was showcased at the 2018 AACC Annual Meeting & Clinical Lab Expo.</p>"
+		document.getElementById('years').innerHTML = "<p><b>Biomarker Development / QA Intern <br />May 2016 - August 2018 (Summers)</p></b>"
+	})
+</script>

@@ -1,0 +1,135 @@
+h1{
+	text-align: left;
+	vertical align: text-top;
+	font-family: arial;
+	color: #D9D9D9;
+	font-size: 36px;
+	line-height: 6px;
+}
+h2{
+	text-align: left;
+	vertical align: text-top;
+	font-family: arial;
+	color:#1E5486;
+	font-size:24px;
+	line-height: 6px;
+}
+h3{
+	text-align: left;
+	vertical align: text-top;
+	font-family: arial;
+	color:#1E5486;
+	font-size:16px;
+	line-height: 6px;
+}
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.introText{
+	padding-left: 45px;
+	padding-top: 40px;
+}
+.socials{
+	display: inline-block;
+	opacity: 0.3;
+	padding-left: 35px;
+	padding-top: 30px;
+	line-height: 125px;
+}
+
+.scrollList{
+	display: inline-block;
+	text-align: right;
+	font-family: arial;
+	color:#1E5486;
+	font-size:22px;
+	position:relative;
+	padding-top: 30px;
+	line-height: 50px;
+}
+
+.lowOpacityItem{
+	opacity: 0.4;
+}
+.lowOpacityItem:hover{
+	opacity: 1;
+}
+
+.scrollList a{
+	text-decoration: none;
+	color:#1E5486;
+}
+
+.scrollBox a{
+	text-decoration: none;
+	color:#1E5486;
+}
+
+.scrollBox a:hover{
+	text-decoration: none;
+	color:#D9D9D9;
+}
+
+.scrollBox{
+}
+
+.years{
+	text-align: center;
+	text-justify: inter-word;
+	font-family: arial;
+	color: #1E5486;
+	font-size:24px;
+	
+}
+
+.description{
+	text-align: justify;
+	text-justify: inter-word;
+	font-family: arial;
+	color: #D9D9D9;
+	font-size:20px;
+	padding-left: 30px;
+}
+#socials{
+	float: left;
+    margin: 0px;
+    width: 6%;
+	
+}
+#scrollList{
+	float: left;
+    margin: 0px;
+    width: 15%;
+}
+#scrollBox{
+	float: left;
+    margin: 0px;
+    width: 70%;
+	padding-left:40px;
+	line-height: 30px;
+}
+
+button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	line-height: 0px;
+}
+
+.footer {
+	position: fixed;
+	font-size: 12px;
+	font-family: arial;
+	color: #1E5486;
+	font-size:14px;
+	left: -20px;
+    bottom: 0;
+    width: 100%;
+	text-align: right;
+}
