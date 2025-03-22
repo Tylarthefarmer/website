@@ -21,7 +21,7 @@
 		</div>
 		<div id="socials" class="socials">
 			<div class="lowOpacityItem">
-				<a href="mailto:tylar.s.farmer@gmail.com"><img src="mail.webp" width="80px" height="80px"></a>
+				<a href="mailto:tylar.s.farmer@gmail.com"><img src="mail.webp" onload="loadDescriptionFunction()" width="80px" height="80px"></a>
 			</div>
 			<div class="lowOpacityItem">
 				<a href="https://www.linkedin.com/in/tylar-farmer-55873784/" target="_blank"><img src="linkedin.webp"  width="80px" height="80px"></a>
@@ -58,13 +58,13 @@
 				<p id="years"><b>Software Quality Assurance Engineer <br />October 2022 - Present</p></b>
 			</div>
 			<div class="description">
-				<p id="description">As an SQA engineer at Vitara, I oversee the software quality on the EXTEND system, an artificial womb designed to support premature infants born between weeks 23-25 of gestation. I work with our software development, R&D, human factors, and V&V teams to author SOPs, templates, work instructions, plans, tests, and reports to ensure the device is safe, reliable, and adheres to appropriate regulatory requirements. I also operate our eQMS, configuring the system to meet the company’s needs. <br></br><b><a href="https://www.bbc.com/future/article/20240717-artificial-placenta-a-new-lifeline-for-premature-babies" target=_blank>Artifical placenta: A new lifeline for premature babies?</a></b></p>
+				<p id="description"></p><!-- <p id="description">As an SQA engineer at Vitara, I oversee the software quality on the EXTEND system, an artificial womb designed to support premature infants born between weeks 23-25 of gestation. I work with our software development, R&D, human factors, and V&V teams to author SOPs, templates, work instructions, plans, tests, and reports to ensure the device is safe, reliable, and adheres to appropriate regulatory requirements. I also operate our eQMS, configuring the system to meet the company’s needs. <br></br><b><a href="https://www.bbc.com/future/article/20240717-artificial-placenta-a-new-lifeline-for-premature-babies" target=_blank>Artifical placenta: A new lifeline for premature babies?</a></b></p> -->
 			</div>
 		</div>
 	</body>
 	<footer>
 		<div class="footer">
-		<p><b>Designed by me</b><a href="tylarfarmer.com/personal.html"><img border="0" alt="basket!" src="basket.webp" width="80" height="50"></p></a>
+		<p><b>Designed by me</b><a href="personal.html"><img border="0" alt="basket!" src="basket.webp" width="80" height="50"></p></a>
 		</div>
 	</footer>
 </html>
@@ -72,7 +72,7 @@
 <script>
     const button1 = document.getElementById('listItem1');
     button1.addEventListener('click', function() {
-		document.getElementById('description').innerHTML = "<p>As an SQA engineer at Vitara, I oversee the software quality on the EXTEND system, an artificial womb designed to support premature infants born between weeks 23-25 of gestation. I work with our software development, R&D, human factors, and V&V teams to author SOPs, templates, work instructions, plans, tests, and reports to ensure the device is safe, reliable, and adheres to appropriate regulatory requirements. I also operate our eQMS, configuring the system to meet the company’s needs. <br></br><b><a href='https://www.bbc.com/future/article/20240717-artificial-placenta-a-new-lifeline-for-premature-babies' target=_blank>Artifical placenta: A new lifeline for premature babies?</a></b></p>"
+		document.getElementById('description').innerHTML = "<p>As an SQA engineer at Vitara, I oversee the software quality on the EXTEND system, an artificial womb designed to support premature infants born between weeks 23-25 of gestation. I work with our software development, R&D, human factors, and V&V teams to author SOPs, templates, work instructions, plans, tests, and reports to ensure the device is safe, reliable, and adheres to appropriate regulatory requirements. I also operate our eQMS, configuring the system to meet the company’s needs. <br></br><b><a href='https://www.bbc.com/future/article/20240717-artificial-placenta-a-new-lifeline-for-premature-babies' target=_blank>Artificial placenta: A new lifeline for premature babies?</a></b></p>"
 		document.getElementById('years').innerHTML = "<p><b>Software Quality Assurance Engineer <br />October 2022 - Present</p></b>"
 	})
 	
@@ -93,4 +93,9 @@
 		document.getElementById('description').innerHTML = "<p>I interned at Fujirebio in the biomarker development and QA departments. During my time, I developed a program to perform detection limit analyses on data from immunoassay machines, which reduced our process cycle time by 1-2 hours. I also drafted SOPs for usage of laboratory equipment, performed internal laboratory audits, and analyzed BCA assays on immunosuppression protein retentate, which was showcased at the 2018 AACC Annual Meeting & Clinical Lab Expo.</p>"
 		document.getElementById('years').innerHTML = "<p><b>Biomarker Development / QA Intern <br />May 2016 - August 2018 (Summers)</p></b>"
 	})
+	
+	function loadDescriptionFunction(){
+		document.getElementById('description').innerHTML = "<p>As an SQA engineer at Vitara, I oversee the software quality on the EXTEND system, an artificial womb designed to support premature infants born between weeks 23-25 of gestation. I work with our software development, R&D, human factors, and V&V teams to author SOPs, templates, work instructions, plans, tests, and reports to ensure the device is safe, reliable, and adheres to appropriate regulatory requirements. I also operate our eQMS, configuring the system to meet the company’s needs. <br></br><b><a href='https://www.bbc.com/future/article/20240717-artificial-placenta-a-new-lifeline-for-premature-babies' target=_blank>Artificial placenta: A new lifeline for premature babies?</a></b></p>"
+		document.getElementById('title').innerHTML = "<p><b>Renders</b></p>"
+	}
 </script>

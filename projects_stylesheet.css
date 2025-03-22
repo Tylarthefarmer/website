@@ -1,0 +1,187 @@
+h1{
+	text-align: left;
+	vertical-align: text-top;
+	font-family: arial;
+	color: #D9D9D9;
+	font-size: 36px;
+}
+
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.introText{
+	padding-left: 45px;
+	padding-top: 10px;
+}
+.socials{
+	display: inline-block;
+	opacity: 0.3;
+	padding-left: 40px;
+	padding-top: 30px;
+	line-height: 125px;
+}
+
+.scrollList{
+	display: inline-block;
+	text-align: right;
+	font-family: arial;
+	color:#595581;
+	font-size:20px;
+	position:relative;
+	padding-top: 30px;
+	line-height: 40px;
+	padding-left:10%;
+}
+
+.lowOpacityItem{
+	opacity: 0.4;
+}
+.lowOpacityItem:hover{
+	opacity: 1;
+}
+
+.scrollList a{
+	text-decoration: none;
+	color:#595581;
+}
+
+.scrollBox a{
+	text-decoration: none;
+	color:#595581;
+}
+
+.scrollBox a:hover{
+	text-decoration: none;
+	color:#D9D9D9;
+}
+
+.scrollBox{
+}
+
+.title{
+	text-align: center;
+	text-justify: inter-word;
+	font-family: arial;
+	color: #595581;
+	font-size:24px;
+	width:90%;
+	
+}
+
+.description{
+	padding:20px;
+	text-align: center;
+	text-justify: inter-word;
+	font-family: arial;
+	color: #D9D9D9;
+	font-size:20px;
+	/* padding-left: 14%; */
+	overflow: auto;
+	height:670px;
+	width:90%;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+#socials{
+	float: left;
+    margin: 0px;
+    width: 6%;
+	
+}
+#scrollList{
+	float: left;
+    margin: 0px;
+}
+#scrollBox{
+	float: left;
+    margin: 0px;
+    width: 70%;
+	padding-left:40px;
+	line-height: 30px;
+}
+
+#musicHeading{
+	line-height: 6px;
+	text-align:left;
+}
+#musicDescription{
+	font-size:14px;
+	text-align:left;
+}
+
+.musicInfo{
+	display: inline-block;
+	width: 70%;
+}
+
+.musicPlayer{
+	display: inline-block;
+	text-align:right;
+	width:25%;
+}
+
+button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	line-height: 0px;
+}
+
+.footer {
+	position: fixed;
+	font-size: 12px;
+	font-family: arial;
+	color: #595581;
+	font-size:14px;
+	left: -20px;
+    bottom: 0;
+    width: 100%;
+	text-align: right;
+}
+
+.content{
+	width:70%;
+	height:100%;
+	top:0;
+	left:15%;
+	position:absolute;
+	background:rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0;
+	transition: 0.6s;
+}
+
+
+.content:hover{
+	opacity:1;
+}
+
+.contentSquare:hover{
+	opacity:1;
+}
+
+.contentLong:hover{
+	opacity:1;
+}
+
+.image{
+	position:relative;
+}
+
+.image img{
+	width:70%;
+	display:block;
+	margin:auto;
+	border-style: solid;
+	border-width:10px;
+	border-color:black;
+	
+}

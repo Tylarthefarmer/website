@@ -1,0 +1,10 @@
+
+.footer {
+	position: fixed;
+	font-size: 12px;
+	font-family: arial;
+	color: #595581;
+	font-size:14px;
+    bottom: 0;
+    width: 100%;
+}
